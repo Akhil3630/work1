@@ -1,0 +1,129 @@
+:root{
+    --dark:#2e244e;
+    --lighter: #02a9a4;
+    --background:#d5e9e9;
+    --text:#10072c;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+
+
+section{
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    margin-left: 3rem;
+}
+/* our team section */
+
+.home-logo{
+    width: 7rem;
+    height: 2.8rem;
+}
+
+/* About section */
+
+.about-text{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.vision-mission-head{
+    color: var(--dark);
+}
+.vision-mission-text{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
+.team-title{
+    text-align: center;
+    font-weight: bold;
+    color: var(--dark);
+}
+.team-img{
+    width: 10rem;
+    height: 13rem;
+    border: solid var(--background);
+    border-radius: 1rem;
+    
+}
+.team-section{
+    background-color: var(--background);
+}
+.line{
+    border: solid var(--lighter);
+    
+}
+/* .hr{
+    margin-top: 0;
+    width: 12rem;
+    border: solid ;
+    color: var(--lighter);
+} */
+.team-name{
+    color: var(--text);
+    margin-top: 0.3rem;
+    font-weight: bold;
+}
+.hr-team{
+    margin-top: 0;
+    width: 10rem;
+    border: solid ;
+    color: var(--lighter);
+    
+}
+
+/* service sections */
+
+
+.services{
+    background: #fff;
+    text-align: center;
+}
+.services h1{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #fff;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+.cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.service{
+    display: inline-block;
+    width: calc(100% / 3);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.service i{
+    color: #02a9a4;
+    font-size: 33px;
+    margin-bottom: 30px;
+}
+.service h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+}
+
+  /* Dark shade : #2e244e
+Light shade : #02a9a4 */
